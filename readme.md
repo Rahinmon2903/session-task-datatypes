@@ -1,0 +1,1 @@
+I have explained JavaScript datatypes, both primitive and non-primitive, based on my own understanding and experience.

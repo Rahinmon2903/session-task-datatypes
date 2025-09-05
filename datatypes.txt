@@ -1,0 +1,65 @@
+                                             Datatypes
+Definition:
+           A datatype is like the label on a student’s book that shows which subject it belongs to. In the same way, in computers, a datatype is a label that tells us what kind of value it is
+Category:
+         There are different types of data types
+                (1)Primitive Datatype
+                (2) Non_Primitive Datatype
+Primitive Datatype:
+        A datatype which can able to save a single value is primitive
+       (ex)
+              A label is like a primitive datatype because it shows just one subject.
+
+ Types:
+    There are 7 primitive datatypes in JavaScript. Let’s explain each one with a short definition and example
+String:
+        
+          In JavaScript  a string is a datatype used to store text. It can be a single character or a sequence of characters written inside single quotes (' '), double quotes (" "), or backticks (` `).
+                                                   (ex): var name = “Rahin”;
+
+Boolean:
+                       It is mainly used in conditions to show whether something is true or false.
+                    
+                                                  (ex) var is_logged = true;
+Undefined:
+                       It means when we create a variable but don’t give it any value, JavaScript                            automatically sets it to and it is not possible in other language
+                                                   (ex) var a;
+ Number:
+                        The  datatype is used to represent integers and decimal values, but it can only store up to  2^53 - 1. Any number beyond this limit consider as bigIn datatype.
+                                                   (ex) var num = 100;
+
+Null:
+                Sometimes in a project, we don’t want to leave a field blank, so we assign null . It means the variable has no value, but it is not the same as empty or undefined.
+                                            (ex) var num = null;(you are assigning a value, but that value specifically means nothing)
+
+BigInt:
+         It is a larger version of Number. Any integer that goes beyond the limit of Number can be represented using BigInt.
+                                  (ex)var big = 123456789012345678901234567890n;
+      
+Non_Primitive Datatype:
+        A datatype which can able to save a multiple value is non_primitive
+       (ex)
+             A book is like a non-primitive datatype because it has many chapters inside it, which means it can hold many values. 
+
+Types:
+    There are 2 non_primitive datatypes in JavaScript. Let’s explain each one with a short definition and example
+
+  Array:
+                     An array is used to store a collection of values, either of the same or different datatypes. Its size is not fixed, and the maximum limit is 2^32 – 1 elements. Each value in an array can be accessed using its index number.when storing values, it works like a queue
+
+                                               (ex)var arr = [1, "Hello", true];
+
+Object:
+                     An object is similar to an array, but instead of storing values by index, it stores multiple values in the form of key–value pairs.
+
+                                                (ex) var person = {
+                                                                     name: "Rahin",
+                                                                    age: 22,
+                                                                    isStudent: true
+                                                                                     };
+Conclusion:
+                     Datatypes tell us what kind of values a variable can store. Primitive datatypes store simple values, while non-primitive datatypes store collections or complex data.
+
+                        
+
+
