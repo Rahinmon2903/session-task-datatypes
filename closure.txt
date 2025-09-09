@@ -1,0 +1,22 @@
+                       Closure
+Definition
+           A closure is when a function is inside another function, and the inner function can still use the outer function’s variables, even after the outer function has finished running.
+           Closure is been introduced to eliminate counter dilemma.(CD) means we use a global variable name as counter and access it from different function
+
+Disadvantage:
+           The value of the global variable can be changed which may affect the output of the function
+
+Note
+        1. Global and local variable are different even we modify any one it does not affect other
+        2. A variable without any of this keyword(let,var,const) is global variable
+
+Syntax:
+            Function num() {
+                      number=10
+             }
+             Function num1() {
+                      console.log(number);
+             }
+             
+  Example:   
+                 A simple example is num1() can able to access the number variable but the Important it gain access only num() after it has been  executed
